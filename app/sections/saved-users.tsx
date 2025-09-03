@@ -22,7 +22,7 @@ const SavedUsers: FC = () => {
 
   return (
     <>
-      <div className="container flex flex-col space-y-5 sm:space-y-0 sm:flex-row py-7.5 items-center justify-between">
+      <div className="container flex flex-col space-y-5 sm:space-y-0 sm:flex-row py-[20px] items-center justify-between">
         <h1 className="text-2.5xl text-burgundy font-bold">Saved cards</h1>
         <Button
           onClick={() => router.push("/users")}
@@ -33,7 +33,7 @@ const SavedUsers: FC = () => {
         </Button>
       </div>
       {users.length === 0 ? (
-        <div className="flex items-center justify-center h-[60vh] rounded-xl shadow-xl my-5 py-7.5">
+        <div className="flex items-center justify-center h-[60vh] rounded-xl shadow-xl my-[20px] py-[30px]">
           <p className="text-redBrown text-xl font-semibold">No saved data</p>
         </div>
       ) : (

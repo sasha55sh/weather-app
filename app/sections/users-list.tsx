@@ -28,7 +28,7 @@ const UsersList = ({
   const totalPages = Math.ceil(allCards.length / cardsPerPage);
 
   return (
-    <section className="container my-7.5">
+    <section className="container my-[30px]">
       <div className="grid gap-5 grid-cols-1 justify-center place-items-center sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {isLoading
           ? Array.from({ length: 6 }, (_, index) => (
