@@ -5,6 +5,7 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    "node_modules/flowbite-react/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -12,12 +13,11 @@ module.exports = {
         default: ["16px", { lineHeight: "22px" }],
       },
       colors: {
-        burgundy: "#780000",
-        crimson: "#c1121f",
-        cream: "#fdf0d5",
-        navy: "#003049",
-        skyblue: "#669bbc",
-        mouseGray: "#828282",
+        slateBlue: "#588B8B",
+        offWhite: "#F0F2EF",
+        lightPeach: "#FFD5C2",
+        redBrown: "#C8553D",
+        darkBlue: "#1D263B",
       },
       fontFamily: {},
     },
@@ -38,5 +38,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("flowbite/plugin")],
 };
