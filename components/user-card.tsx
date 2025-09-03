@@ -84,6 +84,7 @@ const UserCard: FC<User & { withSaveBtn: boolean }> = ({
           width="120"
           height="120"
           className="rounded-full"
+          unoptimized
         />
         <div className="flex flex-col items-center space-y-2.5 text-center">
           <div className="flex items-center space-x-1">
