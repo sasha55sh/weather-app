@@ -77,7 +77,7 @@ const UserCard: FC<User & { withSaveBtn: boolean }> = ({
           />
         </button>
       )}
-      <div className="flex flex-col items-center py-7.5 space-y-5">
+      <div className="flex flex-col items-center py-[30px] space-y-5">
         <Image
           alt={name.last}
           src={picture.large}
