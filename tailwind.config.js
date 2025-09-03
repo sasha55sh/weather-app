@@ -11,6 +11,8 @@ module.exports = {
     extend: {
       fontSize: {
         default: ["16px", { lineHeight: "22px" }],
+        "2.5xl": "28px",
+        "1.5xl": "22px",
       },
       colors: {
         slateBlue: "#588B8B",
@@ -32,9 +34,6 @@ module.exports = {
       center: true,
       padding: {
         DEFAULT: "15px",
-        sm: "20px",
-        lg: "40px",
-        xl: "60px",
       },
     },
   },
